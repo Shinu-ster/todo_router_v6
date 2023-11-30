@@ -9,6 +9,7 @@ const MyRoutes = () => {
   return (
     <BrowserRouter>
       <Routes>
+        {/* Version 6 */}
         <Route path="/"  element={<Navigate to="/home" />} />
 
         <Route path="/home" element={<MainPage />}  />
